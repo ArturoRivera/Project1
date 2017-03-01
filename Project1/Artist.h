@@ -1,5 +1,5 @@
 #pragma once
-#include<string>
+#include <string>
 
 class Artist
 {
@@ -10,9 +10,10 @@ private:
 	std::string _latestAlbum;
 
 public:
-	Artist();
+	Artist(std::string name, std::string latestSong, std::string latestAlbum);
 	~Artist();
 
 	bool registerArtist();
+	std::string GetArtistInfo();
 };
 

@@ -1,6 +1,9 @@
 #include <iostream>
 #include "User.h"
-
+#include "Artist.h"
+#include "Accounts.h"
+#include "SportsTeam.h
+"
 using namespace std;
 
 int main()

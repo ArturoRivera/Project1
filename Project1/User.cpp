@@ -8,9 +8,9 @@ User::User()
 	_userName = "Null";
 }
 
-User::User(string name, int age)
+User::User(string userName, int age)
 {
-	_userName = name;
+	_userName = userName;
 	_userAge = age;
 }
 

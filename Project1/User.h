@@ -12,7 +12,7 @@ private:
 	
 
 public:
-	User(std::string name, int age);
+	User(std::string userName, int age);
 	~User();
 
 	bool registerUser(User newUser, int position);
