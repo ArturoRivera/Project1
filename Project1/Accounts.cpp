@@ -3,11 +3,15 @@
 
 using namespace std;
 
-Accounts::Accounts()
+Accounts::Accounts(string accountName, string accountType)
 {
+	_accountName = accountName;
+	_accountType = accountType;
 }
 
 
 Accounts::~Accounts()
 {
 }
+
+string Accounts::

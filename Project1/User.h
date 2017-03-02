@@ -15,7 +15,6 @@ public:
 	User(std::string userName, int age);
 	~User();
 
-	bool registerUser(User newUser, int position);
 	std::string GetUserInfo();
 };
 
