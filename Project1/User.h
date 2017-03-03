@@ -5,14 +5,15 @@
 class User
 {
 
+//Private class members.
 private:
-
 	std::string _userName;
-	int _userAge;
+    std::string _userAge;
 	
-
+//Public class members.
 public:
-	User(std::string userName, int age);
+    User();
+    User(std::string userName, std::string userAge);
 	~User();
 
 	std::string GetUserInfo();
