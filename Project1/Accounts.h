@@ -15,7 +15,7 @@ private:
     User registeredUsers[4];
     Artist registeredArtist[3];
     SportsTeam registeredSportsTeam[3];
-	
+    
 //Public class members.
 public:
 	Accounts(std::string accountName, std::string accountType);
@@ -24,5 +24,9 @@ public:
 	bool registerUser(User newUser, int position);
 	bool registerArtist(Artist newArtist, int position);
 	bool registerSportsTeam(SportsTeam newSportsTeam, int position);
+    
+    std::string GetUserAccountData();
+    std::string GetArtistAccountData();
+    std::string GetSportsTeamAccountData();
 };
 

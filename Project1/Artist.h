@@ -9,6 +9,7 @@ private:
     std::string _realName;
     std::string _artistName;
 	std::string _latestAlbum;
+    std::string _done;
 
 //Public class members.
 public:
